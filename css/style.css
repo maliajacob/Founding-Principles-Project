@@ -46,36 +46,50 @@ header .arrow svg:hover {
     border-radius: 100px;
 }
 .main {
-    margin: 30px 300px;
+    margin: 70px;
     text-align: center;
-    height: 1000px;
+    min-height: 1000px;
 }
-.main svg {
-    margin: 70px 0px 0px 0px
+.top {
+    margin: 100px 300px;
+}
+.top p {
+    font-size: 1.6em;
 }
 .main h2 {
     font-size: 2.5em;
     color: white;
 }
-.main .phil-box-container {
+.phil-intro {
+    background-color:rgb(81, 89, 103);
+    padding: 50px 30px;
+    width: 250px;
+    margin: 20px;
+}
+.boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-
 }
-.main .phil-box{
-    /* background-color: #3c6abecf; */
-    background-color: rgb(90, 104, 30);
-    padding: 50px;
-    margin: 25px;
-}
-
-
 footer {
     background-color: rgb(24, 24, 24);
     color: rgba(255, 255, 255, 0.538);
-    padding: 20px;
+    padding: 30px;
 }
 p {
     font-size: 20px;
     color: white;
+}
+button {
+    background-color: rgb(81, 89, 103);
+    color: white;
+    border-color: rgb(103,77,36);
+    font-size: 1em;
+    width: 200px;
+    margin: 80px 0px 10px 0px;
+    height: 40px;
+}
+.name {
+    font-size: 1.5rem;
+    margin: 40px 0px;
 }
