@@ -103,6 +103,8 @@ button:hover {
     background-color: #f44336; /* Red */
     color: white;
     margin-bottom: 15px;
+    position: absolute;
+    right: 0;
   }
   
   .closebtn {
@@ -120,3 +122,20 @@ button:hover {
     color: black;
   }
   
+  .goat {
+    text-align: center;
+    background-color: rgb(138, 102, 10);
+    padding: 20px 30px;
+    width: 150px;
+    margin: 20px;
+}
+
+.goat button{
+ background-color: rgb(138, 102, 10);
+ width: 100px;
+}
+.goat-parent {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 150px 0px;
+}

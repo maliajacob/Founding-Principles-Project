@@ -1,12 +1,12 @@
+//skip down arrow
 document.getElementById("scroll-button").addEventListener("click", function() {
     document.getElementById("target-heading").scrollIntoView({ behavior: 'smooth' });
 });
 
-// Get all elements with class="closebtn"
+//alert
 var close = document.getElementsByClassName("closebtn");
 var i;
 
-// Loop through all close buttons
 for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var div = this.parentElement;
