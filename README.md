@@ -17,3 +17,6 @@ helpful links and readings (i side with, )
 directory of all our government officials
 civiv engagement hub: register to vote, contact elected officials, attend city council meetings, community service projects, 
 significatnt government case studies (historical)
+
+ADD STATE TO THE ALERT BUTTON!
+MAKE IT ACCESSIBLE
