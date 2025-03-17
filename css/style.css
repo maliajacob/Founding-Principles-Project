@@ -158,15 +158,15 @@ button:hover {
 
 @keyframes ani {
     0% {
-        left: 300px;
+        left: 0;
     }
 
     50% {
-        left: 900px;
+        left: 100% ;
     }
 
     100% {
-        left: 300px;
+        left: 0;
     }
 }
 
