@@ -147,12 +147,13 @@ button:hover {
     padding: 20px 30px;
     width: 150px;
     margin: 20px;
-    position: relative;
 }
 
 .goat button {
     background-color: rgb(138, 102, 10);
     width: 100px;
+    animation: ani 4s ease 0s infinite;
+    position: relative;
 }
 
 @keyframes ani {
@@ -160,16 +161,12 @@ button:hover {
         left: 300px;
     }
 
-    25% {
-        left: 900px;
-    }
-
     50% {
-        left: 300px;
+        left: 900px;
     }
 
     100% {
-        left: 900px;
+        left: 300px;
     }
 }
 
@@ -177,8 +174,6 @@ button:hover {
     display: flex;
     justify-content: center;
     margin: 0px 0px 50px 0px;
-    animation: ani 4s linear infinite;
-    position: relative;
 }
 
 .pageBody {
