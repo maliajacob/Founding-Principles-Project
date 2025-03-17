@@ -154,10 +154,21 @@ button:hover {
     width: 100px;
 }
 
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .goat-parent {
     display: flex;
     justify-content: center;
     margin: 0px 0px 50px 0px;
+    animation: spin 2s linear infinite, 
+        3s linear 1s infinite alternate slidein;
 }
 
 .pageBody {
