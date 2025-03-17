@@ -147,6 +147,7 @@ button:hover {
     padding: 20px 30px;
     width: 150px;
     margin: 20px;
+    position: relative;
 }
 
 .goat button {
@@ -176,7 +177,7 @@ button:hover {
     display: flex;
     justify-content: center;
     margin: 0px 0px 50px 0px;
-    animation: ani 4s linear infinite,
+    animation: ani 4s linear infinite;
 }
 
 .pageBody {
