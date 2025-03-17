@@ -210,3 +210,7 @@ button:hover {
     fill: black;
     opacity: 1;
 }
+
+.pointer {
+    cursor: pointer;
+}
